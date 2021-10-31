@@ -4,7 +4,7 @@ https://github.com/ArcadeHustle/WatermelonPapriumDump/fork
 Big thanks to Fonzie for allowing this to be published.
 - written by hostile, with supporting information from the community at large!
 <p align="center">
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/FonzieWMProjectLittleMan.jpg">
+<img src="https://github.com/MrKOSMOS/WatermelonPapriumDump/blob/main/images/FonzieWMProjectLittleMan.jpg">
 </p>
 
 * [Pseudo-Legal opinion](#pseudo-legal-opinion)
@@ -170,7 +170,7 @@ https://www.st.com/resource/en/datasheet/m24c64-f.pdf<br>
 Similarly reading the i2c EEPROM is confirmed possible with standard EEPROM readers, or even an [Arduino](https://learn.sparkfun.com/tutorials/reading-and-writing-serial-eeproms/all). It is sitting outside the black epoxy, making it easy to examine. 
 <img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/exposedi2cflash.jpg">
 Example dumps can be found here:<br>
-https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN
+https://github.com/MrKOSMOS/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_215810_goodcart.BIN
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDumps/RT809H/24_64_1.8V_20210924_220101_badcart.BIN
 
 You can read the chip in place on the cart without removing it by using a pogo reader. 
@@ -215,7 +215,7 @@ There is a 9 pin header at the top of the cart labeled "DT", the functionality i
 
 There is also an 8 pin header just below the STM32 above the cart connector that appears as if it may connect to the UART pins and be useful for the UART bootloader programming interface. In order to use it BOOT0 would need to be pulled to GND.<br>
 https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/ChipDocs/programming-an-external-flash-memory-using-the-uart-bootloader-builtin-stm32-microcontrollers-stmicroelectronics.pdf
-<img src="https://github.com/ArcadeHustle/WatermelonPapriumDump/blob/main/images/8pindebug.jpg"><br>
+<img src="https://github.com/MrKOSMOS/WatermelonPapriumDump/blob/main/images/8pindebug.jpg"><br>
 
 
 ## References
